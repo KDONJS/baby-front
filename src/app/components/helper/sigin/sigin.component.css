@@ -1,22 +1,21 @@
 .loginbaby {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
-    max-width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
-}
-
-.formBaby {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     background: linear-gradient(rgba(255, 255, 255, 0.616), rgba(255, 255, 255, 0.678)), url("../../../../assets/img/texturepaper.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 3rem;
-    border-radius: 1rem;
+}
+
+.formBaby {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .imgbaby {
@@ -24,21 +23,19 @@
     height: 20rem;
 }
 
-.imgbaby>img {
+.imgbaby img {
     width: 100%;
     filter: drop-shadow(0px 0px 10px #9bb0d0);
 }
 
-form {
+.formBaby form {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
-    border: inherit;
+    gap: 2rem;
 }
 
 form>input {
     padding: 0.8rem;
-    width: 25rem;
     font-family: "Roboto Slab", serif;
     border: none;
     box-shadow: 0px 0px 10px 0px #a7a8aa6b;
