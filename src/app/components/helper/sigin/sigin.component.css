@@ -1,0 +1,62 @@
+.loginbaby {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formBaby {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.616), rgba(255, 255, 255, 0.678)), url("../../../../assets/img/texturepaper.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+
+.imgbaby {
+    width: 20rem;
+    height: 20rem;
+}
+
+.imgbaby>img {
+    width: 100%;
+    filter: drop-shadow(0px 0px 10px #9bb0d0);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    border: inherit;
+}
+
+form>input {
+    padding: 0.8rem;
+    width: 25rem;
+    font-family: "Roboto Slab", serif;
+    border: none;
+    box-shadow: 0px 0px 10px 0px #a7a8aa6b;
+    border-radius: 0.5rem;
+}
+
+form>button {
+    padding: 0.7rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-family: "Roboto Slab", serif;
+    cursor: pointer;
+    background-color: #9bb0d0;
+    color: aliceblue;
+}
+
+#llaveAcceso:focus {
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 10px 0px #a7caff6b;
+  }

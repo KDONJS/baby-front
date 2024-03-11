@@ -1,0 +1,41 @@
+<main class="mainBaby">
+    <div class="cardBaby">
+      <div class="heroBaby">
+        <h1>ALOHA!</h1>
+        <p>acompañanos a celebrar el</p>
+        <h2>Baby Shower</h2>
+      </div>
+      <div class="imgBaby">
+        <img src="assets/img/stich.png" alt="">
+      </div>
+      <div class="nombreBaby">
+        <span>- de -</span>
+        <h2>Luciel Santiago</h2>
+      </div>
+      <div class="invitadoBaby" *ngFor="let dato of datos">
+        <span>- ¡Te esperamos! -</span>
+        <h3>{{ dato.nombreCompleto}}</h3>
+      </div>
+      <div class="dividerZoneBbay"></div>
+      <div class="informationBaby">
+        <span class="dateBaby">
+          domingo
+          14 de
+          abril      
+        </span>
+        <div class="divider"></div>
+        <span class="directionBaby">
+          av. Prueba tablada de lurin - villa maria del triunfo
+        </span>
+        <div class="divider"></div>
+        <span class="timeBaby">
+          6:00 Pm
+        </span>
+      </div>
+      <div class="dividerZoneBbay"></div>
+      <div class="buttonsBaby">
+        <a class="mapsBaby" routerLink="mapa">Como llegar</a>
+        <button class="mapsBaby buttonB" >Confirmar asistencia</button>
+      </div>
+    </div>
+  </main>

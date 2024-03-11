@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'fontBaby';
+    src: url('../../../assets/font/adelia.otf') format('opentype'),
+         url('../../../assets/font/adelia.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.mainBaby {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.cardBaby {
+    width: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0.616), rgba(255, 255, 255, 0.678)), url("../../../assets/img/texturepaper.jpg");
+    background-size: contain;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+
+@media (width > 800px ) {
+    .mainBaby {
+        height: 95vh;
+    }
+
+    .cardBaby {
+        width: 80%;
+    }
+} 
+
+@media (width > 1000px) {
+    .cardBaby {
+        width: 50%;
+    }
+}
+
+.heroBaby {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heroBaby>h1 {
+   letter-spacing: 6px;
+}
+
+.heroBaby>h1,
+.heroBaby>p {
+    font-family: "Roboto Slab", serif;
+    font-weight: 300;
+}
+
+.heroBaby>h2 {
+    font-family: "fontBaby";
+    color: #9bb0d0;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.imgBaby {
+    width: 20rem;
+    height: 20rem;
+}
+
+.imgBaby img {
+    width: 100%;
+    filter: drop-shadow(10px 10px 10px #9bb0d0);
+}
+
+.nombreBaby {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Roboto Slab", serif;
+}
+
+.nombreBaby>h2 {
+    font-weight: 300;
+}
+
+.invitadoBaby {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Roboto Slab", serif;
+}
+
+.invitadoBaby>h3 {
+    font-weight: 400;
+}
+
+.dividerZoneBbay {
+    height: 2px;
+    background-color: #9bb0d0;
+    width: 100%;
+}
+
+.informationBaby {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto Slab", serif;
+}
+
+.dateBaby,
+.directionBaby,
+.timeBaby {
+    text-align: center;
+    padding: 0.2rem;
+}
+
+.dateBaby {
+    width: 5rem;
+}
+
+.directionBaby {
+    width: 13rem;
+}
+
+.timeBaby {
+    width: 3rem;
+}
+
+.divider {
+    height: 4rem;
+    width: 2px;
+    background-color: #9bb0d0;
+}
+
+.buttonsBaby {
+    display: flex;
+    gap: 0.5rem;
+    width: 100%;
+
+}
+
+.buttonB {
+    border: none;
+    font-size: 16px;
+}
+
+.mapsBaby {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background: #6481ab;
+    font-family: "Roboto Slab", serif;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    color: aliceblue;
+    width: 90%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
