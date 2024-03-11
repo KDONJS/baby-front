@@ -7,7 +7,8 @@ import { SiginComponent } from './components/helper/sigin/sigin.component';
 const routes: Routes = [
   {path: 'inicio', component: InicioComponent},
   {path: 'mapa', component: MapsComponent},
-  {path: 'login', component: SiginComponent}
+  {path: 'login', component: SiginComponent},
+  {path: '**', component: InicioComponent}
 ];
 
 @NgModule({
