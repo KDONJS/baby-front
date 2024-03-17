@@ -21,10 +21,12 @@
 .imgbaby {
     width: 20rem;
     height: 20rem;
+    display: flex;
+    justify-content: center;
 }
 
 .imgbaby img {
-    width: 100%;
+    object-fit: contain;
     filter: drop-shadow(0px 0px 10px #9bb0d0);
 }
 
