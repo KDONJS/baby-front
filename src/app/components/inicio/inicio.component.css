@@ -60,7 +60,7 @@
 
 .heroBaby>h2 {
     font-family: "fontBaby";
-    color: #9bb0d0;
+    color: #459edb;
     font-size: 2rem;
     font-weight: 100;
 }
@@ -72,7 +72,7 @@
 
 .imgBaby img {
     width: 100%;
-    filter: drop-shadow(10px 10px 10px #9bb0d0);
+    filter: drop-shadow(10px 10px 10px #459edb);
 }
 
 .nombreBaby {
@@ -99,7 +99,7 @@
 
 .dividerZoneBbay {
     height: 2px;
-    background-color: #9bb0d0;
+    background-color: #459edb;
     width: 100%;
 }
 
@@ -134,7 +134,7 @@
 .divider {
     height: 4rem;
     width: 2px;
-    background-color: #9bb0d0;
+    background-color: #459edb;
 }
 
 .buttonsBaby {
@@ -153,7 +153,7 @@
 .mapsBaby {
     margin-top: 1rem;
     padding: 0.5rem;
-    background: #6481ab;
+    background: #459edb;
     font-family: "Roboto Slab", serif;
     text-decoration: none;
     border-radius: 0.5rem;
