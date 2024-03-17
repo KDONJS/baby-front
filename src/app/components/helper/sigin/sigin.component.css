@@ -1,39 +1,31 @@
 .loginbaby {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
+    max-width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background: linear-gradient(rgba(255, 255, 255, 0.616), rgba(255, 255, 255, 0.678)), url("../../../../assets/img/texturepaper.jpg");
-    background-size: cover;
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
 .formBaby {
-    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-}
-
-.imgbaby {
-    width: 20rem;
-    height: 20rem;
-    display: flex;
     justify-content: center;
+    gap: 1rem;
 }
 
-.imgbaby img {
-    object-fit: contain;
-    filter: drop-shadow(0px 0px 10px #459edb);
-}
-
-.formBaby form {
+.formBaby>form {
+    z-index: 2;
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 form>input {
@@ -61,8 +53,12 @@ form>button {
     box-shadow: 0px 0px 10px 0px #459edb;
 }
 
-@media (width > 900px) {
-    form>input {
-        width: 18rem;
-    }
+.imgbaby {
+    width: 15rem;
+    height: 15rem;
+}
+
+.imgbaby img {
+    width: 100%;
+    filter: drop-shadow(0px 0px 10px #459edb);
 }
