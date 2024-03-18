@@ -165,3 +165,12 @@
     align-items: center;
     justify-content: center;
 }
+
+.puntualidad {
+   padding-bottom: 0.5rem;
+}
+
+.puntualidad>span{
+    font-family: "Roboto Slab", serif;
+    color: rgb(94, 94, 94);
+}
